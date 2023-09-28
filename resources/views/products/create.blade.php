@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Create a Product :</h1>
+    <!-- message pour error -->
     <div>
         @if($errors->any())
         <ul>
@@ -16,6 +17,7 @@
         </ul>
         @endif
     </div>
+    <!-- message pour error -->
     <form action="{{route('product.store')}}" method="post">
         @csrf
         @method("post")

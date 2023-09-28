@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Products</h1>
+    <!-- message pour Update -->
     <div>
         @if(session()->has('success'))
         <div>
@@ -14,6 +15,7 @@
         </div>
         @endif
     </div>
+    <!-- message pour Update -->
     <div>
         <div>
             <a href="{{route('product.create')}}">Create a product</a>
